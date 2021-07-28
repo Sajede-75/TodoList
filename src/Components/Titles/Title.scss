@@ -1,0 +1,47 @@
+$boldcolor:salmon;
+$lightcolor:seashell;
+.todoList{
+    margin:10px auto;
+    width: 80%;
+    background-color: rgb(235, 108, 96);
+    border: 1px solid $boldcolor;
+    padding: 10px;
+}
+.todo {
+  align-items: center;
+  background: $lightcolor;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 3px;
+  padding: 5px 10px;
+}
+button{
+    background-color: $boldcolor;
+    color: $lightcolor;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 2px;
+    height: auto;
+      &:hover{
+        color: black;
+        font-weight:16px;
+      }
+}
+input{
+  margin: 4px 0;
+  background-color:$lightcolor ;
+  padding: 2px;
+  font-size: 20px;
+  width: 98%;
+}
+.date{
+  width: 95%;
+  font-size: 15px;
+  background-color: $boldcolor;
+  color: #fff;
+  padding: 2px;
+}
